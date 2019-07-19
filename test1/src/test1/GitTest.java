@@ -4,7 +4,7 @@ public class GitTest {
 
 	public static void main(String[] args) {
 		System.out.println("Git java file  test!!!");
-		System.out.println("update2");
+		System.out.println("update3");
 	}
 
 }
