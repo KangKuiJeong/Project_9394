@@ -6,3 +6,5 @@ commit test2 오세준
 >>>>>>> parent of 70082e1... 커밋 테스트1 오세준
 
 commit test3 오세준
+
+commit test4 이승진
