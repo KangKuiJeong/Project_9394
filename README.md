@@ -7,4 +7,4 @@ commit test2 오세준
 
 commit test3 오세준
 
-commit test4 이승진22
+commit test4 이승진
