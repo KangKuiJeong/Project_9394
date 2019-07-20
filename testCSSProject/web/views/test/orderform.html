@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>order</title>
+</head>
+<body>
+<form action="../../order" method="post" id="orderForm">
+<label for="uname">고객 명  : </label>
+<input type="text" name="username" id="uname"> <br>
+<label for="uphone">전화번호 : </label>
+<input type="text" name="userphone" id="uphone"> <br>
+<label for="uemail">E-mail : </label>
+<input type="text" name="username" id="uname"> <br>
+<fieldset>
+<legend>피자 사이즈</legend>
+<table>
+<tr height="30">
+<td>
+<input type="radio" name="size" value="small"> Small
+</td>
+</tr>
+<tr height="30">
+<td>
+<input type="radio" name="size" value="medium"> Medium
+</td>
+</tr>
+<tr height="30">
+<td>
+<input type="radio" name="size" value="large"> Large
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>토핑선택</legend>
+<table>
+<tr height="30">
+<td>
+<input type="checkbox" name="topping" value="bacon"> 베이컨 <br>
+</td>
+</tr>
+<tr height="30">
+<td>
+<input type="checkbox" name="topping" value="cheese"> 치즈 <br>
+</td>
+</tr>
+<tr height="30">
+<td>
+<input type="checkbox" name="topping" value="onion"> 양파 <br>
+</td>
+</tr>
+<tr height="30">
+<td>
+<input type="checkbox" name="topping" value="mushroom"> 버섯 <br>
+</td>
+</tr>
+</table>
+</fieldset>
+<br>
+<label for="udtime">희망배송시간 : </label>
+<input type="time" name="userdtime">
+<br>
+<br>
+<label for="urequest">배송시 요청사항 : </label>
+<textarea name="userrequest" rows="3" cols="50"></textarea>
+<br>
+<br>
+<input type="submit" value="주문하기">
+</form>
+</body>
+</html>

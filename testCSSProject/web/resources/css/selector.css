@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family : TESTF;
+	src : url("../fonts/FZSong_Super.TTF") format("truetype");
+}
+
+img[src$="_s.jpg"] {
+	opacity : 0.3;
+	border : 3px solid #f00;
+}
+
+/* *:not(img) {
+	box-shadow : 1px 1px 3px red;
+} */
+
+li {
+	list-style : none;
+	margin-right : 30px;
+	float : left;
+	font-size : 48px;
+	font-family : TESTF;
+}
+
+li:nth-child(odd) {
+	color : #900;
+	font-weight : bold;
+}
+
+li:nth-child(4n) {
+	color : blue;
+	background-color : hsl(200, 50%, 85%);
+}
+
+div.mcol {
+	column-count : 3;
+	column-gap : 20px;
+	column-rule : 1px dotted #f06;
+}
