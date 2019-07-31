@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>productform</title>
+<style type="text/css">
+li{
+	line-height : 40px;
+}
+</style>
+</head>
+<body>
+<form action="../../product" method="post" id="productForm">
+<fieldset>
+<legend>납품자정보</legend>
+<ol>
+<li>납품자명 : <input type="text" name="sellername" placeholder="name"></li>
+<li>email : <input type="text" name="selleremail" placeholder="answs@naver.com"></li>
+<li>홈페이지 : <input type="text" name="sellerhomepage" placeholder="http://"></li>
+</ol>
+</fieldset>
+<fieldset>
+<legend>납품정보</legend>
+<ul>
+<li>상품명 : <input type="text" name="productname"></li>
+<li>납품수량 : <input type="number" name="productquantity" min="10" max="100" step="10"></li>
+<li>납품등급 : <input type="range" name="productgrade" min="0" max="5" step="1"></li>
+<li>기타사항 : <textarea name="productetc" rows="3"></textarea></li>
+</ul>
+</fieldset>
+<br>
+<input type="submit" value="send message">
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/*sample.css*/
+@charset "UTF-8";
+
+/*여러개의 태그를 할 때는 이 방법 사용*/
+body, h1, header, nav, section, footer {
+	margin : 0; 
+	padding : 0px;
+	color : blue;
+}
+
+/* 태그 안에 사용된 태그를 선택하려면 태그명 공백 태그명 표기함 */
+header nav ul {
+	list-style : none;
+}
+
+hr {
+	box-shadow : 1px 1px 2px black;
+}
+
+h2 {
+	color : pink;
+}
